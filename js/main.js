@@ -1,5 +1,4 @@
-let api_url = "https://api.thecatapi.com/v1/images/search?limit=10" ;
-
+let api_url = "https://jsonplaceholder.typicode.com/posts" ;
 
 async function actualizaGato(api){
   let obtenerGato = await fetch(api); //La función fetch consiste en consultar la función api_url
